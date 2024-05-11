@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* Primary */
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+
+  --gradient-combination: linear-gradient(140deg, hsl(136, 65%, 51%) 10%, hsl(192, 70%, 51%) 90%);
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+
+  /* Neutral */
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  min-height: 100vh;
+  background-color: var(--very-light-gray);
+  overflow-x: hidden;
+}
+
+button {
+  border-radius: 2rem;
+  padding: .7rem 1.6rem;
+  background: var(--gradient-combination);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background ease-in-out 3s;
+}
+
+button:hover {
+  background: var(--gradient-text);
+}
