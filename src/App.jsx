@@ -20,3 +20,11 @@ function App() {
 }
 
 export default App
+
+//   "homepage": "https://adeoye-j.github.io/easybank/",
+// 
+// "predeploy": "npm run build",
+// "deploy": "gh-pages -d dist",
+
+
+// base: "/easybank/"
