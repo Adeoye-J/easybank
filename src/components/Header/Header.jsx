@@ -34,7 +34,6 @@ const Header = () => {
                             <Menu />
                         </div>
                     }
-
                 </div>
                 
                 <div className="menu-bar">
